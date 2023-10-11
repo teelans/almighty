@@ -1,0 +1,2 @@
+# almighty
+almighty-open-source

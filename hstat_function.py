@@ -13,13 +13,6 @@ from arcticdb import Arctic, QueryBuilder
 from datetime import date, timedelta
 
 
-ac = Arctic(f's3://s3.us-east-2.amazonaws.com:lansburg-aws?region=us-east-2&access=AKIA3ISFLTSLLKWRNMKN&secret=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')
-available_libraries = ac.list_libraries()
-
-#create a library
-# ac.create_library('hstat_volume')
-
-
 
 commodity_lists = [
     'corn',
